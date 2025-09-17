@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- La estructura del HTML5 Consta de 1. Header, 2. Main(contenido),
+ 3. Footer o pie de pagina(Contenido al final de la pagina contacto, etc...) -->
+
+<!-- Section: Define seciones como encabezados, capitulos, entre otros, pero 
+ siempre va acompañado de algo, mientras que article es independiente, tiene
+ que hablar por si solo -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Descripcion en el navegado -->
+    <meta name="description" content="Pagina web del entrenamiento 7 Dias sobre Coca Cola">
+    <!-- Ajustar la web al dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tags para ayudar a encontrar la pagina mediante busquedas relacionadas -->
+    <meta name="keywords" content="bebida, gaseosa, cola, coca">
+
+    <!-- Titulo en la pestaña de la pagina -->
+    <title>
+        Inicio - Coca Cola
+    </title>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/Styles.css">
+    <link rel="shortcut icon" href="./AssetsImagenes/favicon.png">
+    <script src="https://kit.fontawesome.com/b0e55ff15b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <a href="Index.html">
+                <img src="./AssetsImagenes/logo.svg" class="logo" alt="logo">
+            </a>
+            <nav>
+                <a href="#Inicio">Inicio</a>
+                <a href="#Nosotros">Nosotros</a>
+                <a href="#Servicios">Servicios</a>
+                <a href="#Galeria">Galería</a>
+                <a href="#Contactenos">Contáctenos</a>
+                <a href="#Login" style="padding: 10px; background-color: yellow; border-radius: 15px;">Iniciar Sesion</a>
+            </nav>
+            <a href="#" class="hamb"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section id="Inicio">
+            <img src="./AssetsImagenes/bannerprincipal.jpg" alt="BannerPrincipal">
+            <div class="bloque-inicio">
+                <h1>Bienvenidos a Coca Cola</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eaque dolores molestiae vel harum
+                    iure?</p>
+                <a href="#Nosotros" class="boton boton-rojo">Ver más...</a>
+            </div>
+        </section>
+
+        <section id="Nosotros" class="seccion">
+            <div class="container">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis dolorum fugiat voluptates sequi
+                    architecto officiis laboriosam tempora nobis voluptate aperiam.</p>
+            </div>
+        </section>
+
+        <section id="Servicios" class="seccion">
+            <div class="container">
+                <div class="row">
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="./AssetsImagenes/servicio1.jpg" alt="ImgSrv1">
+                            </div>
+
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 1</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam veritatis cum,
+                                    natus soluta rem?</p>
+                                <a href="#" class="boton boton-blanco">Ver más...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="./AssetsImagenes/servicio2.jpg" alt="ImgSrv1">
+                            </div>
+
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 2</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam veritatis cum,
+                                    natus soluta rem?</p>
+                                <a href="#" class="boton boton-blanco">Ver más...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio ">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="./AssetsImagenes/servicio3.jpg" alt="ImgSrv1">
+                            </div>
+
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 3</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam veritatis cum,
+                                    natus soluta rem?</p>
+                                <a href="#" class="boton boton-blanco">Ver más...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Galeria">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="./AssetsImagenes/servicio1.jpg" alt="img">
+                            <h4>Imagen 1</h4>
+                        </div>
+                    </div>
+
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="./AssetsImagenes/servicio2.jpg" alt="img">
+                            <h4>Imagen 2</h4>
+                        </div>
+                    </div>
+
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="./AssetsImagenes/servicio3.jpg" alt="img">
+                            <h4>Imagen 3</h4>
+                        </div>
+                    </div>
+
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="./AssetsImagenes/servicio4.jpg" alt="img">
+                            <h4>Imagen 4</h4>
+                        </div>
+                    </div>
+
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="./AssetsImagenes/servicio5.jpg" alt="img">
+                            <h4>Imagen 5</h4>
+                        </div>
+                    </div>
+
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="./AssetsImagenes/servicio6.jpg" alt="img">
+                            <h4>Imagen 6</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Contactenos" class="seccion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26435.939726036973!2d-84.06179824602579!3d9.956743841540547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e4b96010d
+                7c1%3A0xd909211eccb88d0!2sCuatro%20Reinas!5e0!3m2!1ses-419!2scr!4v1745550643062!5m2!1ses-419!2scr"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna columna-41 empujar-58 columna-mobile-100 empujar-mobile-0 sinpadding-mobile">
+                        <form action="index.php" method="post">
+                            <div class="form-block">
+                                <input type="text" name="nombre" class="form-control" placeholder="Nombre">
+                            </div>
+
+                            <div class="form-block">
+                                <input type="email" name="email" class="form-control" placeholder="Correo">
+                            </div>
+
+                            <div class="form-block">
+                                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+
+                            <div class="form-block bloque-ultimo">
+                                <button type="submit" class="boton boton-negro">Enviar
+                                </button>
+                            </div>
+                            <?php
+//Inicia Logica php
+
+//Solicitar que peticion que realizo y verificarla
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+$Username = $_POST["nombre"];
+$UserEmail = $_POST["email"];
+$UserMessage = $_POST["mensaje"];
+
+    if(isset($Username))
+    {
+        if(isset($UserEmail))
+        {
+            if(isset($UserMessage))
+            {
+                $to_email = "eulamiamos@gmail.com";  // tu correo
+                $subject = "Email Test mediante PHP";
+                $body = $UserMessage;
+
+                $headers = "From: $UserEmail\r\n" . "Reply-To: $UserEmail\r\n"; 
+
+                if (mail($to_email, $subject, $body, $headers)) {
+                    echo "Email enviado correctamente a $to_email...";
+                } else {
+                        echo "Email fallo al enviar...";
+                }
+            ?>
+            <p>Envio Exitoso</p>
+            <?php
+            }   
+        }
+    }
+}
+?>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Contenido final parte final de la pagina -->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="columna columna-25 columna-mobile-100">
+                    <img src="./AssetsImagenes/logo-blanco.png" alt="LogoBlanco" class="logo-footer">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et cumque earum architecto iusto, odio
+                        sapiente.</p>
+                </div>
+
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>
+                        Temas Relacionados
+                    </h3>
+                    <ul>
+                        <li><a href="#">Tema 1</a></li>
+                        <li><a href="#">Tema 2</a></li>
+                        <li><a href="#">Tema 3</a></li>
+                        <li><a href="#">Tema 4</a></li>
+                    </ul>
+                </div>
+
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>Datos de contacto</h3>
+                    <ul>
+                        <li>Email@ejemplo.com</li>
+                        <li>+506 9868 9815</li>
+                        <li>Av 1. Contiguo a la verduleria <br>SJ - Costa Rica</li>
+                    </ul>
+                </div>
+
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>Redes Sociales</h3>
+                    <ul class="redes">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+
+                            </a>
+                        </li>
+
+                        <li><a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+
+                            </a></li>
+
+                        <li><a href="#">
+                                <i class="fa-brands fa-square-instagram"></i>
+
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="barra-footer">
+            &copy; Derechos Reservados - 2025
+        </div>
+    </footer>
+
+    <script src="JS/jquery.js"></script>
+    <script src="JS/Script.js"></script>
+</body>
+
+</html>
